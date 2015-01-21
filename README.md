@@ -113,12 +113,12 @@ These helpers also set the time to midnight.
 
 ### Cloning
 
-You can clone an instance of `ExpressiveDate` with the `clone()` method.
+You can clone an instance of `ExpressiveDate` with the `copy()` method.
 
 ```php
 $date = new ExpressiveDate;
 
-$clone = $date->clone();
+$clone = $date->copy();
 ```
 
 A clone is identical to the original instance and is useful when you need to compare or manipulate a date without affecting the original instance.
